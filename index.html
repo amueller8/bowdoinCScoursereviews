@@ -18,21 +18,27 @@
     but in a perfect world I will download the minified CSS file and link appropriately
   -->
   <body>
-
+  
   <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Bowdoin CS Course Reviews</a>
+    <div class="nav-wrapper teal">
+      <a href="#" class="brand-logo">CS Reviews</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="">By Professor</a></li>
-        <li><a href="">By Course</a></li>
+        <li><a href="#de">By Professor</a></li>
+        <li><a href="#e">By Course</a></li>
       </ul>
     </div>
   </nav>
 
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#de">By Professor</a></li>
+    <li><a href="#e">By Course</a></li>
+  </ul>
+
 
     <div class="row">
       <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
+        <div class="card red accent-1">
           <div class="card-content white-text">
             <!--
             <div class="card-action">
@@ -49,6 +55,11 @@
     </div>
   
   </body>
+  <script src="index.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> <!-- materialize-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jquery -->
+            
 
 
 </html>
