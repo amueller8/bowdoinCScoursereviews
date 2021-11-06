@@ -1,4 +1,4 @@
-let professorReviews = [
+export const professorReviews = [
     {
         professor: "Freire",
         reviews: [
@@ -12,4 +12,15 @@ let professorReviews = [
 
 
 
+];
+
+export const courseReviews = [
+
+    {
+        course: "Intro to CS",
+        reviews: [
+            "Took course with Friere. Definitely recommend attending her officer hours to get to know her and learn more about the materials. (I understand the concept of recursion after talking with her)",
+            "Took the course with Chown."
+        ]
+    }
 ];
